@@ -1,0 +1,38 @@
+body{
+    font-family: fantasy;
+    text-align: center;
+
+}
+.calculator{
+    width: 300px;
+    margin: 50px, auto;
+    border: 1px solid rgb(13, 221, 176);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+
+}
+input[type=button]{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 143, 143);
+}
+input[type=button]:hover{
+    background-color: rgb(241, 160, 84);
+
+}
+input[type=text]{
+    width: calc(100%-10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    outline: null;
+
+}
